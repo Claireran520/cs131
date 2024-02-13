@@ -1,0 +1,220 @@
+    1  pwd
+    2  mkdir test
+    3  ls
+    4  close
+    5  mkdir sampleProject
+    6  ls -ltr
+    7  cd sampleProject/
+    8  touch sampleFile.txt
+    9  git init
+   10  git add
+   11  git add .
+   12  git status
+   13  git config --global user.email"clairexiaokeran@gmail.com"
+   14  git config --global user.name"Xiaoke Ran"
+   15  cd ~/.ssh &&ssh-keygen
+   16  mkdir~/.ssh
+   17  cd ~/.ssh &&ssh-keygen
+   18  mkdir ~/.ssh
+   19  cd ~/.ssh &&ssh-keygen
+   20  clip < ~/.ssh/cat id_rsa.pub
+   21  cat id_rsa.pub
+   22  cd ~/.ssh &&ssh-keygen
+   23  clip < ~/.ssh/id_rsa.pub
+   24  cat < ~/.ssh/id_rsa.pub
+   25  clip < ~/.ssh/cat id_rsa.pub
+   26  passwd
+   27  git remote add origin git@github.com:<Claireran520>/<Project_1>.git
+   28  git remote add origin git@github.com:Claireran520/Project_1.git
+   29  git status
+   30  git config --global user.email "you@example.com"
+   31  git config --global user.name "Your Name"
+   32  git config --global user.email “clairexiaokeran@gmail.com"
+   33  git config --global user.name “Claireran520”
+   34  git status
+   35  add origin git@github.com:Claireran520/Project_1.git
+   36  -m "Done”
+   37  --set-upstream origin master
+   38  -set-upstream origin master
+   39  wget
+   40  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   41  ls
+   42  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   43  wget
+   44  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   45  ls
+   46  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   47  vi spotify-2023.csv.
+   48  vi spotify-2023.csv.2
+   49  wget www.github.com
+   50  echo $0
+   51  echo'pwd'
+   52  echo 'pwd'
+   53  echo `pwd`
+   54  ls
+   55  ls -la
+   56  cat .bash_profile
+   57  vi bashrc
+   58  ls -al
+   59  vi .bashrc
+   60  source .bashrc
+   61  vi .bashrc
+   62  source .bashrc
+   63  vi .bashrc
+   64  source .bashrc
+   65  lll
+   66  wget www.github.com
+   67  ls
+   68  -d index.html.1
+   69  rm index.html.1
+   70  ls
+   71  rm test
+   72  mkdir worksheet1
+   73  ls
+   74  history > cmds.log
+   75  ls
+   76  mkdir cs131
+   77  rmdir worksheet1
+   78  ls
+   79  cd cs131
+   80  ls
+   81  mkdir worksheet1
+   82  ls
+   83  history > cmds.log
+   84  cd worksheet1/
+   85  history > cmds.log
+   86  cd ./
+   87  ls
+   88  cd ../
+   89  ls
+   90  git status
+   91  $ git --version
+   92  git --version
+   93  git init
+   94  git config --global user.email
+   95  git config --global user.name
+   96  git config --global user.name Claireran520
+   97  git config --global user.name
+   98  git status
+   99  git add cmds.log 
+  100  git add worksheet1/
+  101  git status
+  102  git commit -m "This is first commit!"
+  103  git remote -v
+  104  git remote add origin git@github.com:Claireran520/cs131.git
+  105  git remote -v
+  106  git push origin master
+  107  cd 
+  108  ls -la
+  109  cd .ssh
+  110  ls -la
+  111  cat id_rsa.pub
+  112  cat id_rsa.pub.pub
+  113  cd ../cs131
+  114  git status
+  115  ls
+  116  git config --global user.name
+  117  git config --global user.email
+  118  git remote add origin git@github.com:Claireran520/cs131.git
+  119  git status
+  120  ls
+  121  git push origin master
+  122  git remote -v
+  123  git status
+  124  git config --global user.email
+  125  git remote add origin git@github.com:Claireran520/cs131.git
+  126  git branch -M main
+  127  git push -u origin main
+  128  $ ssh-keygen -R github.com
+  129  ssh-keygen -R github.com
+  130  git push -u origin main
+  131  ssh -T git@github.com
+  132  $ ssh-keygen -R github.com
+  133  ssh-keygen -R github.com
+  134  cd
+  135  cd .ssh
+  136  ls
+  137  rm 'cat id_rsa.pub.pub'
+  138  ls
+  139  rm 'cat id_rsa.pub'
+  140  rm 'id_rsa.pub'
+  141  ls
+  142  rm 'id_rsa.pub.pub' 
+  143  ls
+  144  rm 'known_hosts.old'
+  145  rm 'known_hosts'
+  146  ls
+  147  cd 
+  148  ls
+  149  cd ~/.ssh&&ssh-keygen
+  150  ls
+  151  cat id_rsa.pub 
+  152  cd 
+  153  ls
+  154  cd cs131
+  155  ls
+  156  git init
+  157  git remote -v
+  158  git config --global user.email
+  159  add origin git@github.com:Claireran520/cs131.git
+  160  git remote add origin git@github.com:Claireran520/cs131.git
+  161  git remote set-url origin git@github.com:Claireran520/cs131.git
+  162  git config --global user.email
+  163  git push oringin master
+  164  git status
+  165  ls
+  166  git commit -m "message1"
+  167  git remote -v
+  168  cd 
+  169  ls
+  170  rmdir cs131
+  171  cd cs131
+  172  rm cmds.log
+  173  ls
+  174  cd worksheet1
+  175  ls
+  176  rm cmds.log
+  177  ls
+  178  cd ../
+  179  ls
+  180  rm worksheet1/
+  181  rmdir worksheet1/
+  182  ls
+  183  cd 
+  184  rmdir cs131
+  185  cd cs131
+  186  ls -la
+  187  rm .git
+  188  rmdir .git
+  189  cd .git
+  190  ls -la
+  191  rm branches/
+  192  cd ../
+  193  ls -la
+  194  mkdir Worksheet1
+  195  ls
+  196  cd Worksheet1/
+  197  history > cmds.log
+  198  ls
+  199  cd ../
+  200  git status
+  201  git add Worksheet1/
+  202  git status
+  203  git commit -m "This is last try."
+  204  git push origin master
+  205  git remote get-url origin
+  206  ls -la
+  207  cd 
+  208  ls
+  209  rmdir -r cs131
+  210  rm -r cs131
+  211  y
+  212  ls
+  213  mkdir cs131
+  214  ls
+  215  cd cs131
+  216  git init
+  217  mkdir worksheet1
+  218  ls
+  219  cd worksheet1/
+  220  history > cmds.log
