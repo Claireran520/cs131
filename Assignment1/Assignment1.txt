@@ -1,0 +1,15 @@
+total 20
+-rw-rw-r-- 1 xiaokesp24 xiaokesp24    0 Feb 28 19:19 Assignment1.txt
+-rw-rw-r-- 1 xiaokesp24 xiaokesp24 7685 Feb 28 19:10 cmds.log
+dr-xr-xr-x 2 xiaokesp24 xiaokesp24 4096 Feb 28 18:40 myDir
+drwxrwxr-x 2 xiaokesp24 xiaokesp24 4096 Feb 28 19:03 myDir2
+drwxrwxr-x 2 xiaokesp24 xiaokesp24 4096 Feb 28 18:57 myDir3
+Question 1:I use echo $SHELL and I got output is: /bin/bash
+Qustion 2: I use echo $HOME and I got output is: /mnt/scratch/SP24_CS131_Jyotika/xiaokesp24
+Question 3: I use "id" to find out the result: uid=1205(xiaokesp24) gid=1205(xiaokesp24) groups=1205(xiaokesp24),78(S78). My uid is 1205.
+Question 4: From this temp directory, I'm allowed to cd in that directory, I can "ls" it and I can "ls -l" it. I can't create files under it because I removed "write" permission for myself.
+Question 6: total        used        free      shared  buff/cache   available
+Mem:          71367       32643       19549        3554       19174       33711
+Swap:          4119           0        4119
+Question 9: Identify the operating system version. File under /etc/ contains this information is os-release.
+Question 10: The permission(given to all users)for the file containing the OS version information is os-release. I use "ls -l /etc/os-release "to check the permissions for all users.
