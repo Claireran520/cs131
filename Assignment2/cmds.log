@@ -1,0 +1,200 @@
+  254  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  255  grep "United States" Global YouTube Statistics.csv
+  256  "United States" 'Global YouTube Statistics.csv'
+  257  "United States" "Global YouTube Statistics.csv"
+  258  grep "United States" "Global YouTube Statistics.csv"
+  259  grep -i "Music" "Global YouTube Statistics.csv" > music_category.csv>
+  260  wc -l music_category.csv >> counts.txt
+  261  wc -w music_category.csv >>counts.txt
+  262  vi counts.txt
+  263  history >cmds.log
+  264  ls
+  265  git status
+  266  git commit -m "This is my worksheet2 assignment"
+  267  git status
+  268  rm "Global YouTube Statistics.csv"
+  269  ls
+  270  view counts.txt
+  271  git status
+  272  git add worksheet2
+  273  git add worksheet2/
+  274  cd ..
+  275  git add worksheet2/
+  276  git status
+  277  git commit -m "This is my worksheet2 assignment"
+  278  git push origin master
+  279  cd
+  280  ls
+  281  cd cs131/
+  282  ls
+  283  mkdir Assignment1
+  284  ls
+  285  cd Assignment1
+  286  echo $SHELL
+  287  echo $HOME
+  288  id
+  289  mkdir myDir
+  290  ls
+  291  chmod -w myDir
+  292  cd myDir
+  293  ls
+  294  ls -l
+  295  touch example.txt
+  296  cd Assignmen1/
+  297  cd..
+  298  cd ..
+  299  ls
+  300  mkdir myDir2
+  301  mkdir myDir3
+  302  ls
+  303  cd myDir2
+  304  touch myFile.txt
+  305  mv myFile.txt myDir3
+  306  man free
+  307  free -m
+  308  cat /etc/os-release
+  309  ls -l /etc/os-release
+  310  cd ..
+  311  ls
+  312  history > cmds.log
+  313  ls
+  314  {echo $SHELL; echo $HOME; id ; free -m ; cat /etc/os-release ; ls -l /etc/os-release} | tee Assignment1.txt
+  315  ls
+  316  vi Assignment1.txt
+  317  cat Assignment1.txt
+  318  ls -l >Assignment1.txt
+  319  cat Assignment1.txt
+  320  vi Assignment1.txt
+  321  ls
+  322  cd cs131
+  323  ls
+  324  cd Assignment1
+  325  ls
+  326  cat Assignment1.txt
+  327  vi Assignment1.txt
+  328  vi Assgnment.txt
+  329  rm Assgnment.txt
+  330  rm -l Assgnment.txt
+  331  ls
+  332  vi Assignment1.txt
+  333  echo $HOME
+  334  vi Assignment1.txt
+  335  id
+  336  vi Assignment1.txt
+  337  free -m
+  338  cd myDir3
+  339  ls
+  340  cd ..
+  341  cd myDir2
+  342  touch myFile.txt
+  343  ls
+  344  mv myFile.txt myDir3
+  345  ls
+  346  rm myDir3
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd myDir3
+  351  ls
+  352  ls -l
+  353  cd ..
+  354  free -m
+  355  cat /etc/os-release
+  356  ls -l /etc/os-release
+  357  vi Assignment1.txt
+  358  git add Assignment1.txt
+  359  git add cmds.log
+  360  git commit -m "This is Assignment 1"
+  361  git status
+  362  ls
+  363  git add Assignment1/
+  364  cd
+  365  ls
+  366  cd cs131
+  367  ls
+  368  git add Assignment1/
+  369  git status
+  370  git commit -m "This is my Assignment 1."
+  371  git push origin master
+  372  ls
+  373  cs131
+  374  cd cs131
+  375  ls
+  376  mkdir Assignment2
+  377  cd Assignment2
+  378  touch Assignment2.txt
+  379  echo -e "Question 1">>Assignment2.txt
+  380  find /etc -type f > one.txt 2>two.txt
+  381  echo -e "We are using the find command to search for regular files in the /etc directory and redirects the output to one.txt,redirect the error to two.txt.">>Assigment2.txt 
+  382  cat one.txt
+  383  echo -e "In one.txt, there are a lot of .conf files and regular files, those are from etc directory and its subdirectories.">>Assignment2.txt
+  384  cat two.txt
+  385  echo -e "In two.txt, many error messages are showing permission denied, which means that i don't have permission to access it">>Assignment2.txt
+  386  echo -e "\nQuestion 2">>Assignment2.txt
+  387  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  388  ls
+  389  cd Assignment2.txt
+  390  vi Assignment2.txt
+  391  rm Assigment2.txt
+  392  ls
+  393  vi Assignment2.txt
+  394  ls
+  395  cd cs131
+  396  ls
+  397  cd Assignment2
+  398  ls
+  399  vi Assignment2.txt
+  400  cut -d ',' -f20,21 Global\YouTube\Statistics.csv|sort|uniq -c|sort -nr|head -n 3
+  401  cut -d ',' -f20,21 "Global YouTube Statistics.csv"| sort | uniq -c | sort -nr |head -n 3
+  402  echo -e "1.March,2006 with 15 channels\n2. July,2014 with 13 channels\n3. August,2014 with 12 channels\nThe commands used to find it was this:  cut -d ',' -f20,21 "Global YouTube Statistics.csv"| sort | uniq -c | sort -nr |head -n 3
+  403  echo -e "1.March,2006 with 15 channels\n2. July,2014 with 13 channels\n3. August,2014 with 12 channels\nThe commands used to find it was this:  cut -d ',' -f20,21 "Global YouTube Statistics.csv"| sort | uniq -c | sort -nr |head -n 3” >> Assignment2.txt
+  404  echo -e "1.March,2006 with 15 channels\n2. July,2014 with 13 channels\n3. August,2014 with 12 channels\nThe commands used to find it was this:  cut -d ',' -f20,21 Global YouTube Statistics.csv | sort | uniq -c | sort -nr |head -n 3” >> Assignment2.txt
+  405  vi Assignment2.txt
+  406  ls
+  407  q
+  408  cd cs131
+  409  >>Assignment2.tt
+  410  ls
+  411  cd cs131
+  412  ls
+  413  cd Assignment2
+  414  ls
+  415  vi Assignment2.txt
+  416  cut -d ',' -f20,21 “Global YouTube Statistics.csv” | sort | uniq -c | sort -nr |head -n 3
+  417  cut -d ' , ' -f20,21 “Global YouTube Statistics.csv” | sort | uniq -c | sort -nr |head -n 3
+  418  cut -d ',' -f20,21 “Global YouTube Statistics.csv” | sort | uniq -c | sort -nr |head -n 3
+  419  cut -d ',' -f20,21 ‘Global YouTube Statistics.csv’ | sort | uniq -c | sort -nr |head -n 3
+  420   wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  421  ls
+  422  rm 'Global YouTube Statistics.csv.1'
+  423  rm 'Global YouTube Statistics.csv'
+  424   wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  425  ls
+  426  cut -d ',' -f20,21 “Global YouTube Statistics.csv” | sort | uniq -c | sort -nr |head -n 3
+  427  cut -d ',' -f20,21 ~/Assignment2/Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr |head -n 3
+  428  cd cs131
+  429  cd ..
+  430  ls
+  431  cd Assignment2
+  432  ls
+  433  cut -d ',' -f20,21 ~/Assignment2/Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr |head -n 3
+  434  cut -d ',' -f20,21 "Global YouTube Statistics.csv" |sort | uniq -c | sort -nr | head -n 3
+  435  vi Assignment2.txt
+  436  echo -e "Question3">>Assignment2.txt
+  437  ps -u $USER -f
+  438  vi Assignment2.txt
+  439  ps -u $USER -f >> Assignment2.txt
+  440  vi Assignment2.txt
+  441  echo -e "Question 4" >>Assignment2.txt
+  442  ps -u $USER -f |tee -a Assignment2.txt
+  443  vi Assignment2.txt
+  444  ps -u $USER -f | tee -a Assignment2.txt
+  445  whoami
+  446  ps -u xiaokesp24
+  447  vi Assignment2.txt
+  448  echo -e "Question 5" >> Assignment2.txt
+  449  ps aux | grep init
+  450  ps aux | grep systemd
+  451  pgrep init
+  452  vi Assignment2.txt
+  453  history |tail -200 >cmds.log

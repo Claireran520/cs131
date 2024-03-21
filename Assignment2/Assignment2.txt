@@ -1,0 +1,46 @@
+Question 1
+We are using the find command to search for regular files in the /etc directory and redirects the output to one.txt,redirect the error to two.txt.
+In one.txt, there are a lot of .conf files and regular files, those are from etc directory and its subdirectories.
+In two.txt, many error messages are showing permission denied, which means that i don't have permission to access it
+
+Question 2
+1.March,2006 with 15 channels\n2. July,2014 with 13 channels\n3. August,2014 with 12 channels\nThe commands used to find it was this:  cut -d ',' -f20,21  "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr |head -n 3
+use cut command: -d',' means the delimiter is a comma, separate column by each. -f20,21  extracts the columns containing the month and year of the data. sort is to sort the data. uniq -c counts unique occurrences. sort -nr sorts numerically in reverse order.head -n 3 selects the top 3 combinations.
+ 
+Question3
+"The command I used is: ps -u $USER -f. And the output is:
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+xiaokes+ 4076084       1  0 01:45 ?        00:00:01 /usr/lib/systemd/systemd --user
+xiaokes+ 4076086 4076084  0 01:45 ?        00:00:00 (sd-pam)
+xiaokes+ 4076092 4075881  0 01:45 ?        00:00:00 sshd: xiaokesp24@pts/32
+xiaokes+ 4076093 4076092  0 01:45 pts/32   00:00:00 -bash
+xiaokes+ 4085862 4076093  0 02:12 pts/32   00:00:00 ps -u xiaokesp24 -f
+Question 4
+b. the output is below:
+UID          PID    PPID  C STIME TTY          TIME CMD
+xiaokes+ 4076084       1  0 01:45 ?        00:00:01 /usr/lib/systemd/systemd --user
+xiaokes+ 4076086 4076084  0 01:45 ?        00:00:00 (sd-pam)
+xiaokes+ 4076092 4075881  0 01:45 ?        00:00:00 sshd: xiaokesp24@pts/32
+xiaokes+ 4076093 4076092  0 01:45 pts/32   00:00:00 -bash
+xiaokes+ 4087308 4076093  0 02:16 pts/32   00:00:00 ps -u xiaokesp24 -f
+xiaokes+ 4087309 4076093  0 02:16 pts/32   00:00:00 tee -a Assignment2.txt
+I can see the last one terminal process show at the end.The process ID for the vim is 4087309. 
+UID          PID    PPID  C STIME TTY          TIME CMD
+xiaokes+ 4076084       1  0 01:45 ?        00:00:01 /usr/lib/systemd/systemd --user
+xiaokes+ 4076086 4076084  0 01:45 ?        00:00:00 (sd-pam)
+xiaokes+ 4076092 4075881  0 01:45 ?        00:00:00 sshd: xiaokesp24@pts/32
+xiaokes+ 4076093 4076092  0 01:45 pts/32   00:00:00 -bash
+xiaokes+ 4089739 4076093  0 02:24 pts/32   00:00:00 ps -u xiaokesp24 -f
+xiaokes+ 4089740 4076093  0 02:24 pts/32   00:00:00 tee -a Assignment2.txt
+
+After close another terminal's vim and run ps command again, I noticed that vim process disappeared. This is because  the vim session and vim process end at another terminal too.
+
+Question 5
+ Init is a daemon process that continues running until the system is shut down. The process id is 1. I use command: ps aux | grep init
+
+Question 6
+The command ps aux is used to display a detailed list of all running processes on the system. It shows information such as the user owning the process (USER column), the process ID (PID column), the CPU and memory usage (%CPU and %MEM columns), and the command associated with the process (COMMAND column). 
+
+
+
