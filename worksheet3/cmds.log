@@ -1,0 +1,48 @@
+  506  git status
+  507  ls
+  508  cd cs131
+  509  git push origin master
+  510  ls
+  511  cd cs131
+  512  ls
+  513  mkdir worksheet3
+  514  cp Assignment2/"Global YouTube Statistics.csv" worksheet3/
+  515  ls
+  516  cd worksheet3
+  517  ls
+  518  touch ws3.txt
+  519  vi ws3.txt
+  520  cut -d ',' -f2,8,16 "Global YouTube Statistics.csv"
+  521  man uniq
+  522  man cut
+  523  man sort
+  524  grep -a ',United States,' "Global YouTube Statistics.csv" |cut -d ',' -f16 |sort -nr |head -n 1 >> ws3.txt
+  525  vi ws3.txt
+  526  grep -a ',United States,' "Global YouTube Statistics.csv" | awk -F, '$16 ==920000' "Global YouTube Statistics.csv" >> ws3.txt
+  527  vi ws3.txt
+  528  grep -a ',United States,' "Global YouTube Statistics.csv" | awk -F, '$16 == 9200000' "Global YouTube Statistics.csv" >> ws3.txt
+  529  vi ws3.txt
+  530  grep -a ',United Kingdom,' "Global YouTube Statistics.csv" |cut -d ',' -16 |sort -nr |head -n 1 >> ws3.txt
+  531  grep -a ',United Kingdom,' "Global YouTube Statistics.csv" |cut -d ',' -f16 |sort -nr |head -n 1 >> ws3.txt
+  532  vi ws3.txt
+  533  grep -a ',United Kingdom,' "Global YouTube Statistics.csv" | awk -F, '$16 == 2000000' >> ws3.txt
+  534  vi ws3.txt
+  535  grep -a ',India,' "Global YouTube Statistics.csv"| cut -d ',' -f16 |sort -nr 
+  536  grep -a ',India,' "Global YouTube Statistics.csv"| cut -d ',' -f16 |sort -nr | head -n 1 >> ws3.txt
+  537  vi ws3.txt
+  538  grep -a ',India,' "Global YouTube Statistics.csv"|awk -F, '$16 == 9000000' >> ws3.txt
+  539  vi ws3.txt
+  540  grep -a ',Sports,' "Global YouTube Statistics" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  541  grep -a ',Sports,' "Global YouTube Statistics.csv" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  542  vi ws3.txt
+  543  grep -a ',Sports,' "Global YouTube Statistics.csv"|awk -F, '$3 == 96000000' >> ws3.txt
+  544  vi ws3.txt
+  545  grep -a ',Education,' "Global YouTube Statistics.csv" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  546  vi ws3.txt
+  547  grep -a ',Education,' "Global YouTube Statistics.csv"|awk -F, '$3 == 162000000' >> ws3.txt
+  548  vi ws3.txt
+  549  grep -a ',Entertainment,' "Global YouTube Statistics.csv" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  550  vi ws3.txt
+  551  grep -a ',Entertainment,' "Global YouTube Statistics.csv"|awk -F, '$3 == 166000000' >> ws3.txt
+  552  vi ws3.txt
+  553  history |tail -n 100 > cmds.log
