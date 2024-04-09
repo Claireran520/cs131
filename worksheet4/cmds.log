@@ -1,0 +1,200 @@
+  515  ls
+  516  cd worksheet3
+  517  ls
+  518  touch ws3.txt
+  519  vi ws3.txt
+  520  cut -d ',' -f2,8,16 "Global YouTube Statistics.csv"
+  521  man uniq
+  522  man cut
+  523  man sort
+  524  grep -a ',United States,' "Global YouTube Statistics.csv" |cut -d ',' -f16 |sort -nr |head -n 1 >> ws3.txt
+  525  vi ws3.txt
+  526  grep -a ',United States,' "Global YouTube Statistics.csv" | awk -F, '$16 ==920000' "Global YouTube Statistics.csv" >> ws3.txt
+  527  vi ws3.txt
+  528  grep -a ',United States,' "Global YouTube Statistics.csv" | awk -F, '$16 == 9200000' "Global YouTube Statistics.csv" >> ws3.txt
+  529  vi ws3.txt
+  530  grep -a ',United Kingdom,' "Global YouTube Statistics.csv" |cut -d ',' -16 |sort -nr |head -n 1 >> ws3.txt
+  531  grep -a ',United Kingdom,' "Global YouTube Statistics.csv" |cut -d ',' -f16 |sort -nr |head -n 1 >> ws3.txt
+  532  vi ws3.txt
+  533  grep -a ',United Kingdom,' "Global YouTube Statistics.csv" | awk -F, '$16 == 2000000' >> ws3.txt
+  534  vi ws3.txt
+  535  grep -a ',India,' "Global YouTube Statistics.csv"| cut -d ',' -f16 |sort -nr 
+  536  grep -a ',India,' "Global YouTube Statistics.csv"| cut -d ',' -f16 |sort -nr | head -n 1 >> ws3.txt
+  537  vi ws3.txt
+  538  grep -a ',India,' "Global YouTube Statistics.csv"|awk -F, '$16 == 9000000' >> ws3.txt
+  539  vi ws3.txt
+  540  grep -a ',Sports,' "Global YouTube Statistics" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  541  grep -a ',Sports,' "Global YouTube Statistics.csv" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  542  vi ws3.txt
+  543  grep -a ',Sports,' "Global YouTube Statistics.csv"|awk -F, '$3 == 96000000' >> ws3.txt
+  544  vi ws3.txt
+  545  grep -a ',Education,' "Global YouTube Statistics.csv" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  546  vi ws3.txt
+  547  grep -a ',Education,' "Global YouTube Statistics.csv"|awk -F, '$3 == 162000000' >> ws3.txt
+  548  vi ws3.txt
+  549  grep -a ',Entertainment,' "Global YouTube Statistics.csv" |cut -d ',' -f3| sort -nr |head -n 1 >> ws3.txt
+  550  vi ws3.txt
+  551  grep -a ',Entertainment,' "Global YouTube Statistics.csv"|awk -F, '$3 == 166000000' >> ws3.txt
+  552  vi ws3.txt
+  553  history |tail -n 100 > cmds.log
+  554  ls
+  555  vi cmds.log
+  556  ls
+  557  cd .
+  558  ls
+  559  cd ..
+  560  ls
+  561  git add worksheet3/
+  562  git commit -m "This is my worksheet3 assignment."
+  563  git push origin master
+  564  exist
+  565  exit
+  566  ls
+  567  cd cs131/
+  568  ls
+  569  mkdir worksheet4
+  570  ls
+  571  cd worksheet4
+  572  script ws4.txt
+  573  vi ~/.bash_profile
+  574  vi ~/. bash_profile
+  575  cd worksheet4
+  576  ls
+  577  cd cs131
+  578  ls
+  579  cd worksheet4
+  580  ls
+  581  rm ws4.txt
+  582  ls
+  583  script ws4.txt
+  584  vi ~/.bash_profile
+  585  source ~/.bash_profile
+  586  l
+  587  vi ~/.bash_profile
+  588  source ~/.bash_profile
+  589  l
+  590  w
+  591  ls
+  592  cp worksheet3/"Global YouTube Statistics.csv" worksheet4/
+  593  cd ..
+  594  ls
+  595  cp worksheet3/"Global YouTube Statistics.csv" worksheet4/
+  596  cd worksheet4
+  597  ls
+  598  mkdir Subscribers
+  599  cut -d ',' -f6,18 "Global YouTube Statistics.csv" | grep ",US" | cut -d ',' -f 1 > United_States.txt
+  600  cut -d ',' -f6,18 "Global YouTube Statistics.csv" | grep ",IN" | cut -d ',' -f 1 > India.txt
+  601  paste -sd+ United_States.txt | bc -lq | awk '{print $0/NR}' > us_mean.txt
+  602  paste -sd+ India.txt | bc -lq | awk '{print $0/NR}' > india_mean.txt
+  603  echo "Mean number of subscribers for United States:" >> ws4_means.txt
+  604  cat us_mean.txt >> ws4_means.txt
+  605  echo "Mean number of subscribers for India:" >> ws4_means.txt
+  606  cat india_mean.txt >> ws4_means.txt
+  607  vi ws4_means.txt
+  608  vi india_mean.txt
+  609  vi United_States.txt
+  610  awk -F ,'$8 == "United States"{print$3}' "Global YouTube Statistics.csv > Subscriber/United_States.txt
+  611  vi United_States.txt
+  612  ls
+  613  :q
+  614  ls
+  615  cd cs131
+  616  ls
+  617  cd worksheet4
+  618  ls
+  619  vi United_States.txt
+  620  rm United_States.txt
+  621  rm India.txt
+  622  rm india_mean.txt
+  623  rm us_mean.txt
+  624  ls
+  625  cd Subscribers
+  626  ls
+  627  awk -F ,'$8 == "United States"{print$3}' "Global YouTube Statistics.csv" > Subscriber/United_States.txt
+  628  cd ..
+  629  ls
+  630  awk -F ,'$8 == "United States"{print$3}' "Global YouTube Statistics.csv" > Subscriber/United_States.txt
+  631  ls
+  632  cd Subscribers
+  633  awk -F ,'$8 == "United States"{print$3}' "Global YouTube Statistics.csv" > United_States.txt
+  634  ls
+  635  vi United_States.txt
+  636  cat United_States.txt
+  637  awk -F, '$8 == "United States"{print$3}' Global\YouTube\Statistics.csv > United_States.txt
+  638  vi "Global YouTube Statistics.csv"
+  639  awk -F, '$8 == "United States"{print$3}' Global\ YouTube\ Statistics.csv > United_States.txt
+  640  ls -l
+  641  cd ..
+  642  ls
+  643  awk -F ,'$8 == "United States"{print$3}' "Global YouTube Statistics.csv" > United_States.txt
+  644  awk -F,'$8 == "United States"{print$3}' "Global YouTube Statistics.csv" > United_States.txt
+  645  ls
+  646  vi United_States.txt
+  647  ls
+  648  cd cs131
+  649  ls
+  650  cd worksheet4
+  651  ls
+  652  awk -F, '$8=="United States" {print $3}' "Global YouTube Statistics.csv" > United_States.txt  
+  653  vi United_States.txt
+  654  wc -l United_States.txt
+  655  awk '{sum +=$1};{mean=sum/313;END{print mean}' United_States.txt 
+  656  awk '{sum+= $1};{mean= sum/313;END{print mean}' United_States.txt 
+  657  awk '{sum+= $1};{mean= sum/313;END{print mean}'United_States.txt 
+  658  awk '{sum+= $1};{mean= sum/313;END{print mean}'United_States.txt awk '{sum+=$1}; {mean=sum/313}; END{print mean}' United_States.txt
+  659  awk '{sum+=$1}; {mean=sum/313}; END{print mean}' United_States.txt
+  660  awk -F, '$8=="India" {print $3}' "Global YouTube Statistics.csv" > India.txt  
+  661  wc -l India.txt
+  662  awk '{sum+=$1}; {mean=sum/168}; END{print mean}' India.txt
+  663  ls
+  664  awk '{sum+=$1}; {mean=sum/313}; END{print mean}' United_States.txt > ws4_means.txt
+  665  vi ws4_means.txt
+  666  awk '{sum+=$1}; {mean=sum/168}; END{print mean}' India.txt > ws4_means.txt
+  667  cp United_States.txt Subscribers/
+  668  ls
+  669  cd Subscribers
+  670  ls
+  671  cd..
+  672  cd .
+  673  cd ..
+  674  ls
+  675  cp India.txt Subscribers/
+  676  ls
+  677  rm United_States.txt
+  678  rm India.txt
+  679  ls
+  680  touch greetings.txt
+  681  vi greetings.txt
+  682  sed -i 's/Hello/Hi/g' greetings.txt
+  683  sed -i '/Doe/d' greetings.txt
+  684  sed -i 's/$/(edited)/' greetings.txt
+  685  sed -i '/^Hello,.*Michael Johnson/s/Michael Johnson/Mike Johnson/' greetings.txt
+  686  vi greetings.txt
+  687  rm greetings.txt
+  688  touch greetings.txt
+  689  vi greetings.txt
+  690  touch record_greetings.txt
+  691  sed -i 's/Hello/Hi/g' greetings.txt > record_greetings.txt
+  692  vi record_greetings.txt
+  693  sed -i 's/Hello/Hi/g' greetings.txt >> record_greetings.txt
+  694  vi record_greetings.txt
+  695  sed 's/Hello/Hi/g' greetings.txt >> record_greetings.txt
+  696  vi record_greetings.txt
+  697  sed '/Doe/d' greetings.txt > record_greetings.txt
+  698  vi record_greetings.txt
+  699  sed 's/Hello/Hi/g' greetings.txt >> record_greetings.txt
+  700  vi record_greetings.txt
+  701  sed '/Doe/d' greetings.txt >> record_greetings.txt
+  702  vi record_greetings.txt
+  703  sed 's/$/(edited)/' greetings.txt >> record_greetings.txt
+  704  vi record_greetings.txt
+  705  sed '/^Hello,.*Michael Johnson/s/Michael Johnson/Mike Johnson/' greetings.txt >> record_greetings.txt
+  706  vi record_greetings.txt
+  707  ls
+  708  Subscribers
+  709  ls
+  710  cd cs131
+  711  ls
+  712  cd worksheet4
+  713  ls
+  714  history |tail -n 200 > cmds.log
