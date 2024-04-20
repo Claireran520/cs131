@@ -1,0 +1,100 @@
+  716  git commit
+  717  cd ..
+  718  ls
+  719  git add worksheet4/
+  720  git commit -m "This is my worksheet 4."
+  721  git push origin master
+  722  awk '{sum+=$1}; {mean=sum/313}; END{print mean}' United_States.txt > ws4_means.txt
+  723  ls
+  724  cd worksheet4
+  725  ls
+  726  awk '{sum+=$1}; {mean=sum/313}; END{print mean}' United_States.txt > ws4_means.txt
+  727  cd Subscribers
+  728  ls
+  729  cd ..
+  730  awk '{sum+=$1}; {mean=sum/313}; END{print mean}' Subscribers/United_States.txt > ws4_means.txt
+  731  vi ws4_means.txt
+  732  awk '{sum+=$1}; {mean=sum/313}; END{print mean}' Subscribers/India.txt >> ws4_means.txt
+  733  vi ws4_means.txt
+  734  git add ws4_means.txt
+  735  git commit
+  736  git commit -m "This is my worksheet 4." 
+  737  git push origin master
+  738  exit
+  739  ls
+  740  cd cs131
+  741  ls
+  742  mkdir Assignment3
+  743  ls
+  744  cd Assignment3
+  745  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+  746  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+  747  ls
+  748  wc -l last.fake >>Assignment3.txt
+  749  vi Assignment3.txtt
+  750  ls
+  751  vi Assignment3.txtt
+  752  vi Assignment3.txt
+  753  grep 'sp24' last.fake > lastsp24.fake
+  754  wc -l lastsp24.fake >Assignment3.txt
+  755  vi Assignment3.txt
+  756  wc -l last.fake >>Assignment3.txt
+  757  vi Assignment3.txt
+  758  grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq
+  759  grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq >> Assignment3.txt
+  760  vi Assignment3.txt
+  761  awk '{split($4,a,":"); if(a[1] >= 23 || a[1] <= 4) print $1}' lastsp24.fake | sort | uniq
+  762  awk '{split($4,a,":"); if(a[1] >= 23 || a[1] <= 4) print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+  763  vi Assignment3.txt
+  764  awk '{split($4,a,":"); if(a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+  765  vi Assignment.txt
+  766  ls
+  767  rm Assignment.txt
+  768  ls
+  769  rm Assignment3.txtt
+  770  ls
+  771  vi Assignment3.txt
+  772  awk '{split($4,a,":"); if(a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+  773  vi Assignment3.txt
+  774  awk '{split($4,a,":"); if(a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  775  vi lastsp24.fake
+  776  awk '{split($4,a,":"); if(a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  777  awk '{split($4,a,":"); if(a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq >> Assignment.txt
+  778  vi Assignment.txt
+  779  rm Assignment.txt
+  780  ls
+  781  sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print }' | sort -u >>Assignment3.txt
+  782  vi Assignment3.txt
+  783  awk '{split($4, a, ":"); if(a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  784  ls
+  785  cd cs131
+  786  cd Assignment3
+  787  ls
+  788  awk '{split($4, a, ":"); if(a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  789  sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print $1}' | sort -u >> Assignment3.txt 
+  790  vi Assignment3.txt
+  791  awk '/^t/{print $1}' lastsp24.fake
+  792  awk '/^t/{print $1}' lastsp24.fake >> Assignment3.txt
+  793  vi Assignment3.txt
+  794  awk '/^t/{print $1}' lastsp24.fake | sort | uniq
+  795  awk '/^t/{print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+  796  vi Assignment3.txt
+  797  awk -F: ' ~ /^aawk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' pas/ &&  % 2 == 0 {print}' passwd.fake
+  798  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+  799  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment3.txt
+  800  vi Assignment3.txt
+  801  sed 's/[[:alnum:][:space:]]//g' passwd.fake | sort -u >> Assigment3.txt
+  802  vi Assignment3.txt
+  803  sed 's/[[:alnum:][:space:]]//g' passwd.fake | sort| uniq 
+  804  sed 's/[[:alnum:][:space:]]//g' passwd.fake | sort| uniq >> Assignment3.txt
+  805  vi Assignment3.txt
+  806  ls
+  807  cd cs131
+  808  ls
+  809  cd Assignment3
+  810  ls
+  811  rm Assigment3.txt
+  812  ls
+  813  vi Assignment3.txt
+  814  ls
+  815  history  |tail -n 100  > cmds.log
