@@ -1,0 +1,50 @@
+  830  ls
+  831  chmod u+x ws5_script.sh
+  832  ls
+  833  vi ws5.txt
+  834  ls
+  835  vi ws5_script.sh
+  836  ls
+  837  chmod u+x ws5_script.sh
+  838  ./ws5_script.sh
+  839  ls
+  840  vi ws5.txt
+  841  vi ws5_script.sh
+  842  chmod u+x ws5_script.sh
+  843  ./ws5_script.sh
+  844  mkdir /United States
+  845  mkdir 'United States'
+  846  mkdir 'United States2'
+  847  ./ws5_script.sh
+  848  ls
+  849  rm 'United States2'
+  850  ls
+  851  rmdir 'United States2'
+  852  ls
+  853  cd States/
+  854  ls
+  855  cd workshee5/
+  856  cd worksheet5/
+  857  cd ..
+  858  ls
+  859  rmdir States
+  860  ls
+  861  vi ws5.txt
+  862  vi ws5_script.sh
+  863  ./ws5_script.sh
+  864  vi ws5_script.sh
+  865  ./ws5_script.sh
+  866  vi ws5_script.sh
+  867  ./ws5_script.sh
+  868  vi ws5_script.sh
+  869  ls
+  870  rm ws5.txt
+  871  rm ws5_script.sh
+  872  touch ws5_script.sh
+  873  vi ws5_script.sh
+  874  ./ws5_script.sh
+  875  chmod u+x ws5_script.sh
+  876  ./ws5_script.sh
+  877  ls
+  878  vi ws5.txt
+  879  history | tail -n 50 >cmds.log
